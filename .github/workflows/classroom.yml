@@ -7,8 +7,7 @@
         name: Autograding
         runs-on: ubuntu-latest
         steps:
-          - run: npm install
-            env:
-                NODE_AUTH_TOKEN: ${{secrets.UNC_MEJO_PACKAGE_AUTH}}
           - uses: actions/checkout@v2
           - uses: education/autograding@v1
+            env:
+                NODE_AUTH_TOKEN: ${{secrets.UNC_MEJO_PACKAGE_AUTH}}
