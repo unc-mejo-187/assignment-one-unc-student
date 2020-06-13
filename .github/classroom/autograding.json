@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Always Fail",
-      "setup": "npm set registry https://npm.pkg.github.com/unc-mejo-187",
+      "setup": "npm set registry https://npm.pkg.github.com/ansipes",
       "run": "npx @unc-mejo-187/random-test",
       "input": "",
       "output": "",
