@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Always Fail",
-      "setup": "npm set registry https://npm.pkg.github.com/ansipes",
+      "setup": "npm config set registry https://npm.pkg.github.com/ansipes",
       "run": "npx @ansipes/random-test",
       "input": "",
       "output": "",
