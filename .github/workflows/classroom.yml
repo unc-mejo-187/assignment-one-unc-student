@@ -9,5 +9,6 @@
         steps:
           - uses: actions/checkout@v2
           - uses: education/autograding@v1
-          - env:
+          - run: npm install
+            env:
                 NODE_AUTH_TOKEN: ${{secrets.UNC_MEJO_PACKAGE_AUTH}}
